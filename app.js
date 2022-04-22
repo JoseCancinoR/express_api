@@ -22,7 +22,7 @@ app.get('/v1/explorers', (req, res) => {
     res.status(200).json(explorers)
 })
 
-/* // GET
+// GET
 app.get('/v1/explorers/:id', (req, res) => {
     console.log(`Api Explorers GET request ${new Date()}`);
     console.log(`Getting explorer with id ${req.params.id}`);
@@ -30,7 +30,7 @@ app.get('/v1/explorers/:id', (req, res) => {
     res.status(200).json(explorer)
 })
 
-// POSt
+/*// POSt
 app.post('/v1/explorers', (req, res) => {
     console.log(`Api Explorers POST request ${new Date()}`);
     const requestBody = req.body // Parámetros de un cliente
